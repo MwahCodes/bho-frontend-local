@@ -58,20 +58,7 @@ function ResponsiveAppBar() {
     };
 
     const handlenavigation = (pages: any) => {
-        switch (pages) {
-          case "About":
-            navigate('/aboutPage');
-            break;
-          case "Clothing":
-            navigate('/viewInventory');
-            break;
-          case "Accessories":
-            navigate('/accessoriesInventory');
-            break;
-          case "Admin":
-            navigate('/adminInventory');
-            break;
-        }
+        
       };
 
     const handleReviewOrderButton = () => {
